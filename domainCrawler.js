@@ -1,5 +1,3 @@
-var scriptsTags = document.getElementsByTagName("script");
-
 // img -- data-sharpsrc -- 
 // 嵌入的script脚本中对静态资源的请求，如new Image（）
 // 注释后的代码中对静态资源的请求 
@@ -11,24 +9,15 @@ var scriptsTags = document.getElementsByTagName("script");
 // 	   i -- inline, 在normal的基础上获取内联脚本内部包含的域名
 //     c -- comment, 在normal的基础上获取注释中的域名
 
-var config = {
-	"mode" : "ic",
-	"tag" : {
-		"script" : "src",
-		"img" : ["src", "data-sharpsrc"],
-		"link" : "href",
-		"a" : "href"
-	},
-	"attr": [
-		"data-sharpsrc"
-	]
-};
-
-var Crawler = function(config) {
+var Crawler = module.exports = function(config) {
 	this._init(config);
 }
 
 Crawler.prototype._init = function(config) {
+
+	// 这个好像会很大，所以需要做清理操作
+	// this.document = a;
+
 	this.setTags(config["tag"]);
 	this.setDomains();
 };
@@ -191,15 +180,15 @@ function traverseDom(curr_element, type) {
     return elements;   
 };
 
-var c = new Crawler(config);
-console.log(c.tagInfo);
+// var c = new Crawler(config);
+// console.log(c.tagInfo);
 var domains = c.getUniqueDomain();
-console.log(domains);
-// console.log(c.tags);
-// console.log(c.urls);
-c.getCommentDomain();
-c.getAttrDomain(["data-sharpsrc"]);
+// console.log(domains);
+// // console.log(c.tags);
+// // console.log(c.urls);
+// c.getCommentDomain();
+// c.getAttrDomain(["data-sharpsrc"]);
 
-var b = document.body;
-console.log(b.attributes);
-console.log(b.nodeName);
+// var b = document.body;
+// console.log(b.attributes);
+// console.log(b.nodeName);
