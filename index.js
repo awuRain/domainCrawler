@@ -18,7 +18,11 @@ var config = {
 	"url": url
 };
 
-var domain_crawler1 = new domain_crawler(config);
+var domain_crawler_1 = new domain_crawler(config);
+domain_crawler_1.init.then(function() {
+		domain_crawler_1.crawl();
+	}
+);
 // console.log(domain_crawler1);
 
 // var domains = domain_crawler1.getUniqueDomain();

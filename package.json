@@ -4,7 +4,9 @@
   "description": "a tool to crawl domains from one website.",
   "main": "main.js",
   "dependencies": {
-    "cheerio": "^0.20.0"
+    "cheerio": "^0.20.0",
+    "promise": "^7.1.1",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {},
   "scripts": {
