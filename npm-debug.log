@@ -23,726 +23,698 @@
 13 silly mapToRegistry uri https://registry.npmjs.org/httpsync
 14 verbose request uri https://registry.npmjs.org/httpsync
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 16:59:33
-17 verbose request id e70b331cbba66c26
-18 http request GET https://registry.npmjs.org/httpsync
-19 http 200 https://registry.npmjs.org/httpsync
-20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-20 verbose headers   etag: '"BX4Y58VDEV1H7B1JGD9XZULQF"',
-20 verbose headers   'content-type': 'application/json',
-20 verbose headers   'cache-control': 'max-age=300',
-20 verbose headers   'content-length': '13316',
-20 verbose headers   'accept-ranges': 'bytes',
-20 verbose headers   date: 'Wed, 04 May 2016 08:59:19 GMT',
-20 verbose headers   via: '1.1 varnish',
-20 verbose headers   age: '0',
-20 verbose headers   connection: 'keep-alive',
-20 verbose headers   'x-served-by': 'cache-itm7421-ITM',
-20 verbose headers   'x-cache': 'MISS',
-20 verbose headers   'x-cache-hits': '0',
-20 verbose headers   'x-timer': 'S1462352358.560403,VS0,VE863',
-20 verbose headers   vary: 'Accept-Encoding' }
-21 silly get cb [ 200,
-21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-21 silly get     etag: '"BX4Y58VDEV1H7B1JGD9XZULQF"',
-21 silly get     'content-type': 'application/json',
-21 silly get     'cache-control': 'max-age=300',
-21 silly get     'content-length': '13316',
-21 silly get     'accept-ranges': 'bytes',
-21 silly get     date: 'Wed, 04 May 2016 08:59:19 GMT',
-21 silly get     via: '1.1 varnish',
-21 silly get     age: '0',
-21 silly get     connection: 'keep-alive',
-21 silly get     'x-served-by': 'cache-itm7421-ITM',
-21 silly get     'x-cache': 'MISS',
-21 silly get     'x-cache-hits': '0',
-21 silly get     'x-timer': 'S1462352358.560403,VS0,VE863',
-21 silly get     vary: 'Accept-Encoding' } ]
-22 verbose get saving httpsync to /Users/yangyu/.npm/registry.npmjs.org/httpsync/.cache.json
-23 verbose correctMkdir /Users/yangyu/.npm correctMkdir not in flight; initializing
-24 silly install normalizeTree
-25 silly loadCurrentTree Finishing
-26 silly loadIdealTree Starting
-27 silly install loadIdealTree
-28 silly cloneCurrentTree Starting
-29 silly install cloneCurrentTreeToIdealTree
-30 silly cloneCurrentTree Finishing
-31 silly loadShrinkwrap Starting
-32 silly install loadShrinkwrap
-33 silly loadShrinkwrap Finishing
-34 silly loadAllDepsIntoIdealTree Starting
-35 silly install loadAllDepsIntoIdealTree
-36 silly resolveWithNewModule httpsync@0.0.8 checking installable status
-37 silly cache add args [ 'httpsync', null ]
-38 verbose cache add spec httpsync
-39 silly cache add parsed spec Result {
-39 silly cache add   raw: 'httpsync',
-39 silly cache add   scope: null,
-39 silly cache add   name: 'httpsync',
-39 silly cache add   rawSpec: '',
-39 silly cache add   spec: 'latest',
-39 silly cache add   type: 'tag' }
-40 silly addNamed httpsync@latest
-41 verbose addNamed "latest" is being treated as a dist-tag for httpsync
-42 info addNameTag [ 'httpsync', 'latest' ]
-43 silly mapToRegistry name httpsync
-44 silly mapToRegistry using default registry
-45 silly mapToRegistry registry https://registry.npmjs.org/
-46 silly mapToRegistry data Result {
-46 silly mapToRegistry   raw: 'httpsync',
-46 silly mapToRegistry   scope: null,
-46 silly mapToRegistry   name: 'httpsync',
-46 silly mapToRegistry   rawSpec: '',
-46 silly mapToRegistry   spec: 'latest',
-46 silly mapToRegistry   type: 'tag' }
-47 silly mapToRegistry uri https://registry.npmjs.org/httpsync
-48 verbose addNameTag registry:https://registry.npmjs.org/httpsync not in flight; fetching
-49 verbose get https://registry.npmjs.org/httpsync not expired, no request
-50 silly addNameTag next cb for httpsync with tag latest
-51 silly addNamed httpsync@0.0.8
-52 verbose addNamed "0.0.8" is a plain semver version for httpsync
-53 warn deprecated httpsync@0.0.8: This module no longer work, please use urllib-sync instead.
-54 silly mapToRegistry name httpsync
-55 silly mapToRegistry using default registry
-56 silly mapToRegistry registry https://registry.npmjs.org/
-57 silly mapToRegistry data Result {
-57 silly mapToRegistry   raw: 'httpsync',
-57 silly mapToRegistry   scope: null,
-57 silly mapToRegistry   name: 'httpsync',
-57 silly mapToRegistry   rawSpec: '',
-57 silly mapToRegistry   spec: 'latest',
-57 silly mapToRegistry   type: 'tag' }
-58 silly mapToRegistry uri https://registry.npmjs.org/httpsync
-59 verbose addRemoteTarball https://registry.npmjs.org/httpsync/-/httpsync-0.0.8.tgz not in flight; adding
-60 verbose addRemoteTarball [ 'https://registry.npmjs.org/httpsync/-/httpsync-0.0.8.tgz',
-60 verbose addRemoteTarball   '2dbca214c17fa4f1adc95e102ef62acc0f98de6d' ]
-61 info retry fetch attempt 1 at 16:59:35
-62 info attempt registry request try #1 at 16:59:35
-63 http fetch GET https://registry.npmjs.org/httpsync/-/httpsync-0.0.8.tgz
-64 http fetch 200 https://registry.npmjs.org/httpsync/-/httpsync-0.0.8.tgz
-65 silly fetchAndShaCheck shasum 2dbca214c17fa4f1adc95e102ef62acc0f98de6d
-66 verbose addTmpTarball /var/folders/85/smlj6k8s2g7bf3p0vy8fpsnm0000gn/T/npm-9414-4e597b36/registry.npmjs.org/httpsync/-/httpsync-0.0.8.tgz not in flight; adding
-67 verbose addTmpTarball already have metadata; skipping unpack for httpsync@0.0.8
-68 verbose correctMkdir /Users/yangyu/.npm correctMkdir not in flight; initializing
-69 silly cache afterAdd httpsync@0.0.8
-70 verbose afterAdd /Users/yangyu/.npm/httpsync/0.0.8/package/package.json not in flight; writing
-71 verbose correctMkdir /Users/yangyu/.npm correctMkdir not in flight; initializing
-72 verbose afterAdd /Users/yangyu/.npm/httpsync/0.0.8/package/package.json written
-73 silly loadAllDepsIntoIdealTree Finishing
-74 silly idealTree:prePrune domaincrawler@1.0.0
-74 silly idealTree:prePrune ├── abab@1.0.3
-74 silly idealTree:prePrune ├── acorn-globals@1.0.9
-74 silly idealTree:prePrune ├── acorn@2.7.0
-74 silly idealTree:prePrune ├── amdefine@1.0.0
-74 silly idealTree:prePrune ├── ansi-regex@2.0.0
-74 silly idealTree:prePrune ├── ansi-styles@2.2.1
-74 silly idealTree:prePrune ├── asn1@0.2.3
-74 silly idealTree:prePrune ├── assert-plus@0.2.0
-74 silly idealTree:prePrune ├── async@1.5.2
-74 silly idealTree:prePrune ├── aws-sign2@0.6.0
-74 silly idealTree:prePrune ├── aws4@1.3.2
-74 silly idealTree:prePrune ├─┬ bl@1.1.2
-74 silly idealTree:prePrune │ ├── isarray@1.0.0
-74 silly idealTree:prePrune │ └── readable-stream@2.0.6
-74 silly idealTree:prePrune ├── boolbase@1.0.0
-74 silly idealTree:prePrune ├── boom@2.10.1
-74 silly idealTree:prePrune ├── caseless@0.11.0
-74 silly idealTree:prePrune ├── chalk@1.1.3
-74 silly idealTree:prePrune ├── cheerio@0.20.0
-74 silly idealTree:prePrune ├── combined-stream@1.0.5
-74 silly idealTree:prePrune ├── commander@2.9.0
-74 silly idealTree:prePrune ├── component-emitter@1.2.1
-74 silly idealTree:prePrune ├── cookiejar@2.0.6
-74 silly idealTree:prePrune ├── core-util-is@1.0.2
-74 silly idealTree:prePrune ├── cryptiles@2.0.5
-74 silly idealTree:prePrune ├── css-select@1.2.0
-74 silly idealTree:prePrune ├── css-what@2.1.0
-74 silly idealTree:prePrune ├── cssom@0.3.1
-74 silly idealTree:prePrune ├── cssstyle@0.2.34
-74 silly idealTree:prePrune ├─┬ dashdash@1.13.1
-74 silly idealTree:prePrune │ └── assert-plus@1.0.0
-74 silly idealTree:prePrune ├── debug@2.2.0
-74 silly idealTree:prePrune ├── deep-is@0.1.3
-74 silly idealTree:prePrune ├── delayed-stream@1.0.0
-74 silly idealTree:prePrune ├─┬ dom-serializer@0.1.0
-74 silly idealTree:prePrune │ └── domelementtype@1.1.3
-74 silly idealTree:prePrune ├── domain-crawler
-74 silly idealTree:prePrune ├── domelementtype@1.3.0
-74 silly idealTree:prePrune ├── domhandler@2.3.0
-74 silly idealTree:prePrune ├── domutils@1.5.1
-74 silly idealTree:prePrune ├── ecc-jsbn@0.1.1
-74 silly idealTree:prePrune ├── entities@1.1.1
-74 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
-74 silly idealTree:prePrune ├── escodegen@1.8.0
-74 silly idealTree:prePrune ├── esprima@2.7.2
-74 silly idealTree:prePrune ├── estraverse@1.9.3
-74 silly idealTree:prePrune ├── esutils@2.0.2
-74 silly idealTree:prePrune ├── extend@3.0.0
-74 silly idealTree:prePrune ├── extsprintf@1.0.2
-74 silly idealTree:prePrune ├── fast-levenshtein@1.1.3
-74 silly idealTree:prePrune ├── forever-agent@0.6.1
-74 silly idealTree:prePrune ├── form-data@1.0.0-rc4
-74 silly idealTree:prePrune ├── formidable@1.0.17
-74 silly idealTree:prePrune ├── generate-function@2.0.0
-74 silly idealTree:prePrune ├── generate-object-property@1.2.0
-74 silly idealTree:prePrune ├─┬ getpass@0.1.6
-74 silly idealTree:prePrune │ └── assert-plus@1.0.0
-74 silly idealTree:prePrune ├── graceful-readlink@1.0.1
-74 silly idealTree:prePrune ├── har-validator@2.0.6
-74 silly idealTree:prePrune ├── has-ansi@2.0.0
-74 silly idealTree:prePrune ├── hawk@3.1.3
-74 silly idealTree:prePrune ├── hoek@2.16.3
-74 silly idealTree:prePrune ├─┬ htmlparser2@3.8.3
-74 silly idealTree:prePrune │ └── entities@1.0.0
-74 silly idealTree:prePrune ├── http-signature@1.1.1
-74 silly idealTree:prePrune ├── httpsync@0.0.8
-74 silly idealTree:prePrune ├── inherits@2.0.1
-74 silly idealTree:prePrune ├── is-my-json-valid@2.13.1
-74 silly idealTree:prePrune ├── is-property@1.0.2
-74 silly idealTree:prePrune ├── is-typedarray@1.0.0
-74 silly idealTree:prePrune ├── isarray@0.0.1
-74 silly idealTree:prePrune ├── isstream@0.1.2
-74 silly idealTree:prePrune ├── jodid25519@1.0.2
-74 silly idealTree:prePrune ├── jsbn@0.1.0
-74 silly idealTree:prePrune ├── jsdom@7.2.2
-74 silly idealTree:prePrune ├── json-schema@0.2.2
-74 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
-74 silly idealTree:prePrune ├── jsonpointer@2.0.0
-74 silly idealTree:prePrune ├── jsprim@1.2.2
-74 silly idealTree:prePrune ├── levn@0.3.0
-74 silly idealTree:prePrune ├── lodash@4.11.2
-74 silly idealTree:prePrune ├── lru-cache@4.0.1
-74 silly idealTree:prePrune ├── methods@1.1.2
-74 silly idealTree:prePrune ├── mime-db@1.23.0
-74 silly idealTree:prePrune ├── mime-types@2.1.11
-74 silly idealTree:prePrune ├── mime@1.3.4
-74 silly idealTree:prePrune ├── ms@0.7.1
-74 silly idealTree:prePrune ├── node-uuid@1.4.7
-74 silly idealTree:prePrune ├── nth-check@1.0.1
-74 silly idealTree:prePrune ├── nwmatcher@1.3.7
-74 silly idealTree:prePrune ├── oauth-sign@0.8.1
-74 silly idealTree:prePrune ├── optionator@0.8.1
-74 silly idealTree:prePrune ├── parse5@1.5.1
-74 silly idealTree:prePrune ├── pinkie-promise@2.0.1
-74 silly idealTree:prePrune ├── pinkie@2.0.4
-74 silly idealTree:prePrune ├── prelude-ls@1.1.2
-74 silly idealTree:prePrune ├── process-nextick-args@1.0.6
-74 silly idealTree:prePrune ├── pseudomap@1.0.2
-74 silly idealTree:prePrune ├── qs@6.1.0
-74 silly idealTree:prePrune ├── readable-stream@1.1.14
-74 silly idealTree:prePrune ├── reduce-component@1.0.1
-74 silly idealTree:prePrune ├── request@2.72.0
-74 silly idealTree:prePrune ├── sax@1.2.1
-74 silly idealTree:prePrune ├── sntp@1.0.9
-74 silly idealTree:prePrune ├── source-map@0.2.0
-74 silly idealTree:prePrune ├─┬ sshpk@1.8.3
-74 silly idealTree:prePrune │ └── assert-plus@1.0.0
-74 silly idealTree:prePrune ├── string_decoder@0.10.31
-74 silly idealTree:prePrune ├── stringstream@0.0.5
-74 silly idealTree:prePrune ├── strip-ansi@3.0.1
-74 silly idealTree:prePrune ├─┬ superagent@1.8.3
-74 silly idealTree:prePrune │ ├── form-data@1.0.0-rc3
-74 silly idealTree:prePrune │ ├── qs@2.3.3
-74 silly idealTree:prePrune │ └── readable-stream@1.0.27-1
-74 silly idealTree:prePrune ├── supports-color@2.0.0
-74 silly idealTree:prePrune ├── symbol-tree@3.1.4
-74 silly idealTree:prePrune ├── tough-cookie@2.2.2
-74 silly idealTree:prePrune ├── tr46@0.0.3
-74 silly idealTree:prePrune ├── tunnel-agent@0.4.2
-74 silly idealTree:prePrune ├── tweetnacl@0.13.3
-74 silly idealTree:prePrune ├── type-check@0.3.2
-74 silly idealTree:prePrune ├── util-deprecate@1.0.2
-74 silly idealTree:prePrune ├── verror@1.3.6
-74 silly idealTree:prePrune ├── webidl-conversions@2.0.1
-74 silly idealTree:prePrune ├── whatwg-url-compat@0.6.5
-74 silly idealTree:prePrune ├── wordwrap@1.0.0
-74 silly idealTree:prePrune ├── xml-name-validator@2.0.1
-74 silly idealTree:prePrune ├── xtend@4.0.1
-74 silly idealTree:prePrune └── yallist@2.0.0
-75 silly loadIdealTree Finishing
-76 silly currentTree domaincrawler@1.0.0
-76 silly currentTree ├── abab@1.0.3
-76 silly currentTree ├── acorn-globals@1.0.9
-76 silly currentTree ├── acorn@2.7.0
-76 silly currentTree ├── amdefine@1.0.0
-76 silly currentTree ├── ansi-regex@2.0.0
-76 silly currentTree ├── ansi-styles@2.2.1
-76 silly currentTree ├── asn1@0.2.3
-76 silly currentTree ├── assert-plus@0.2.0
-76 silly currentTree ├── async@1.5.2
-76 silly currentTree ├── aws-sign2@0.6.0
-76 silly currentTree ├── aws4@1.3.2
-76 silly currentTree ├─┬ bl@1.1.2
-76 silly currentTree │ ├── isarray@1.0.0
-76 silly currentTree │ └── readable-stream@2.0.6
-76 silly currentTree ├── boolbase@1.0.0
-76 silly currentTree ├── boom@2.10.1
-76 silly currentTree ├── caseless@0.11.0
-76 silly currentTree ├── chalk@1.1.3
-76 silly currentTree ├── cheerio@0.20.0
-76 silly currentTree ├── combined-stream@1.0.5
-76 silly currentTree ├── commander@2.9.0
-76 silly currentTree ├── component-emitter@1.2.1
-76 silly currentTree ├── cookiejar@2.0.6
-76 silly currentTree ├── core-util-is@1.0.2
-76 silly currentTree ├── cryptiles@2.0.5
-76 silly currentTree ├── css-select@1.2.0
-76 silly currentTree ├── css-what@2.1.0
-76 silly currentTree ├── cssom@0.3.1
-76 silly currentTree ├── cssstyle@0.2.34
-76 silly currentTree ├─┬ dashdash@1.13.1
-76 silly currentTree │ └── assert-plus@1.0.0
-76 silly currentTree ├── debug@2.2.0
-76 silly currentTree ├── deep-is@0.1.3
-76 silly currentTree ├── delayed-stream@1.0.0
-76 silly currentTree ├─┬ dom-serializer@0.1.0
-76 silly currentTree │ └── domelementtype@1.1.3
-76 silly currentTree ├── domain-crawler
-76 silly currentTree ├── domelementtype@1.3.0
-76 silly currentTree ├── domhandler@2.3.0
-76 silly currentTree ├── domutils@1.5.1
-76 silly currentTree ├── ecc-jsbn@0.1.1
-76 silly currentTree ├── entities@1.1.1
-76 silly currentTree ├── escape-string-regexp@1.0.5
-76 silly currentTree ├── escodegen@1.8.0
-76 silly currentTree ├── esprima@2.7.2
-76 silly currentTree ├── estraverse@1.9.3
-76 silly currentTree ├── esutils@2.0.2
-76 silly currentTree ├── extend@3.0.0
-76 silly currentTree ├── extsprintf@1.0.2
-76 silly currentTree ├── fast-levenshtein@1.1.3
-76 silly currentTree ├── forever-agent@0.6.1
-76 silly currentTree ├── form-data@1.0.0-rc4
-76 silly currentTree ├── formidable@1.0.17
-76 silly currentTree ├── generate-function@2.0.0
-76 silly currentTree ├── generate-object-property@1.2.0
-76 silly currentTree ├─┬ getpass@0.1.6
-76 silly currentTree │ └── assert-plus@1.0.0
-76 silly currentTree ├── graceful-readlink@1.0.1
-76 silly currentTree ├── har-validator@2.0.6
-76 silly currentTree ├── has-ansi@2.0.0
-76 silly currentTree ├── hawk@3.1.3
-76 silly currentTree ├── hoek@2.16.3
-76 silly currentTree ├─┬ htmlparser2@3.8.3
-76 silly currentTree │ └── entities@1.0.0
-76 silly currentTree ├── http-signature@1.1.1
-76 silly currentTree ├── inherits@2.0.1
-76 silly currentTree ├── is-my-json-valid@2.13.1
-76 silly currentTree ├── is-property@1.0.2
-76 silly currentTree ├── is-typedarray@1.0.0
-76 silly currentTree ├── isarray@0.0.1
-76 silly currentTree ├── isstream@0.1.2
-76 silly currentTree ├── jodid25519@1.0.2
-76 silly currentTree ├── jsbn@0.1.0
-76 silly currentTree ├── jsdom@7.2.2
-76 silly currentTree ├── json-schema@0.2.2
-76 silly currentTree ├── json-stringify-safe@5.0.1
-76 silly currentTree ├── jsonpointer@2.0.0
-76 silly currentTree ├── jsprim@1.2.2
-76 silly currentTree ├── levn@0.3.0
-76 silly currentTree ├── lodash@4.11.2
-76 silly currentTree ├── lru-cache@4.0.1
-76 silly currentTree ├── methods@1.1.2
-76 silly currentTree ├── mime-db@1.23.0
-76 silly currentTree ├── mime-types@2.1.11
-76 silly currentTree ├── mime@1.3.4
-76 silly currentTree ├── ms@0.7.1
-76 silly currentTree ├── node-uuid@1.4.7
-76 silly currentTree ├── nth-check@1.0.1
-76 silly currentTree ├── nwmatcher@1.3.7
-76 silly currentTree ├── oauth-sign@0.8.1
-76 silly currentTree ├── optionator@0.8.1
-76 silly currentTree ├── parse5@1.5.1
-76 silly currentTree ├── pinkie-promise@2.0.1
-76 silly currentTree ├── pinkie@2.0.4
-76 silly currentTree ├── prelude-ls@1.1.2
-76 silly currentTree ├── process-nextick-args@1.0.6
-76 silly currentTree ├── pseudomap@1.0.2
-76 silly currentTree ├── qs@6.1.0
-76 silly currentTree ├── readable-stream@1.1.14
-76 silly currentTree ├── reduce-component@1.0.1
-76 silly currentTree ├── request@2.72.0
-76 silly currentTree ├── sax@1.2.1
-76 silly currentTree ├── sntp@1.0.9
-76 silly currentTree ├── source-map@0.2.0
-76 silly currentTree ├─┬ sshpk@1.8.3
-76 silly currentTree │ └── assert-plus@1.0.0
-76 silly currentTree ├── string_decoder@0.10.31
-76 silly currentTree ├── stringstream@0.0.5
-76 silly currentTree ├── strip-ansi@3.0.1
-76 silly currentTree ├─┬ superagent@1.8.3
-76 silly currentTree │ ├── form-data@1.0.0-rc3
-76 silly currentTree │ ├── qs@2.3.3
-76 silly currentTree │ └── readable-stream@1.0.27-1
-76 silly currentTree ├── supports-color@2.0.0
-76 silly currentTree ├── symbol-tree@3.1.4
-76 silly currentTree ├── tough-cookie@2.2.2
-76 silly currentTree ├── tr46@0.0.3
-76 silly currentTree ├── tunnel-agent@0.4.2
-76 silly currentTree ├── tweetnacl@0.13.3
-76 silly currentTree ├── type-check@0.3.2
-76 silly currentTree ├── util-deprecate@1.0.2
-76 silly currentTree ├── verror@1.3.6
-76 silly currentTree ├── webidl-conversions@2.0.1
-76 silly currentTree ├── whatwg-url-compat@0.6.5
-76 silly currentTree ├── wordwrap@1.0.0
-76 silly currentTree ├── xml-name-validator@2.0.1
-76 silly currentTree ├── xtend@4.0.1
-76 silly currentTree └── yallist@2.0.0
-77 silly idealTree domaincrawler@1.0.0
-77 silly idealTree ├── abab@1.0.3
-77 silly idealTree ├── acorn-globals@1.0.9
-77 silly idealTree ├── acorn@2.7.0
-77 silly idealTree ├── amdefine@1.0.0
-77 silly idealTree ├── ansi-regex@2.0.0
-77 silly idealTree ├── ansi-styles@2.2.1
-77 silly idealTree ├── asn1@0.2.3
-77 silly idealTree ├── assert-plus@0.2.0
-77 silly idealTree ├── async@1.5.2
-77 silly idealTree ├── aws-sign2@0.6.0
-77 silly idealTree ├── aws4@1.3.2
-77 silly idealTree ├─┬ bl@1.1.2
-77 silly idealTree │ ├── isarray@1.0.0
-77 silly idealTree │ └── readable-stream@2.0.6
-77 silly idealTree ├── boolbase@1.0.0
-77 silly idealTree ├── boom@2.10.1
-77 silly idealTree ├── caseless@0.11.0
-77 silly idealTree ├── chalk@1.1.3
-77 silly idealTree ├── cheerio@0.20.0
-77 silly idealTree ├── combined-stream@1.0.5
-77 silly idealTree ├── commander@2.9.0
-77 silly idealTree ├── component-emitter@1.2.1
-77 silly idealTree ├── cookiejar@2.0.6
-77 silly idealTree ├── core-util-is@1.0.2
-77 silly idealTree ├── cryptiles@2.0.5
-77 silly idealTree ├── css-select@1.2.0
-77 silly idealTree ├── css-what@2.1.0
-77 silly idealTree ├── cssom@0.3.1
-77 silly idealTree ├── cssstyle@0.2.34
-77 silly idealTree ├─┬ dashdash@1.13.1
-77 silly idealTree │ └── assert-plus@1.0.0
-77 silly idealTree ├── debug@2.2.0
-77 silly idealTree ├── deep-is@0.1.3
-77 silly idealTree ├── delayed-stream@1.0.0
-77 silly idealTree ├─┬ dom-serializer@0.1.0
-77 silly idealTree │ └── domelementtype@1.1.3
-77 silly idealTree ├── domain-crawler
-77 silly idealTree ├── domelementtype@1.3.0
-77 silly idealTree ├── domhandler@2.3.0
-77 silly idealTree ├── domutils@1.5.1
-77 silly idealTree ├── ecc-jsbn@0.1.1
-77 silly idealTree ├── entities@1.1.1
-77 silly idealTree ├── escape-string-regexp@1.0.5
-77 silly idealTree ├── escodegen@1.8.0
-77 silly idealTree ├── esprima@2.7.2
-77 silly idealTree ├── estraverse@1.9.3
-77 silly idealTree ├── esutils@2.0.2
-77 silly idealTree ├── extend@3.0.0
-77 silly idealTree ├── extsprintf@1.0.2
-77 silly idealTree ├── fast-levenshtein@1.1.3
-77 silly idealTree ├── forever-agent@0.6.1
-77 silly idealTree ├── form-data@1.0.0-rc4
-77 silly idealTree ├── formidable@1.0.17
-77 silly idealTree ├── generate-function@2.0.0
-77 silly idealTree ├── generate-object-property@1.2.0
-77 silly idealTree ├─┬ getpass@0.1.6
-77 silly idealTree │ └── assert-plus@1.0.0
-77 silly idealTree ├── graceful-readlink@1.0.1
-77 silly idealTree ├── har-validator@2.0.6
-77 silly idealTree ├── has-ansi@2.0.0
-77 silly idealTree ├── hawk@3.1.3
-77 silly idealTree ├── hoek@2.16.3
-77 silly idealTree ├─┬ htmlparser2@3.8.3
-77 silly idealTree │ └── entities@1.0.0
-77 silly idealTree ├── http-signature@1.1.1
-77 silly idealTree ├── httpsync@0.0.8
-77 silly idealTree ├── inherits@2.0.1
-77 silly idealTree ├── is-my-json-valid@2.13.1
-77 silly idealTree ├── is-property@1.0.2
-77 silly idealTree ├── is-typedarray@1.0.0
-77 silly idealTree ├── isarray@0.0.1
-77 silly idealTree ├── isstream@0.1.2
-77 silly idealTree ├── jodid25519@1.0.2
-77 silly idealTree ├── jsbn@0.1.0
-77 silly idealTree ├── jsdom@7.2.2
-77 silly idealTree ├── json-schema@0.2.2
-77 silly idealTree ├── json-stringify-safe@5.0.1
-77 silly idealTree ├── jsonpointer@2.0.0
-77 silly idealTree ├── jsprim@1.2.2
-77 silly idealTree ├── levn@0.3.0
-77 silly idealTree ├── lodash@4.11.2
-77 silly idealTree ├── lru-cache@4.0.1
-77 silly idealTree ├── methods@1.1.2
-77 silly idealTree ├── mime-db@1.23.0
-77 silly idealTree ├── mime-types@2.1.11
-77 silly idealTree ├── mime@1.3.4
-77 silly idealTree ├── ms@0.7.1
-77 silly idealTree ├── node-uuid@1.4.7
-77 silly idealTree ├── nth-check@1.0.1
-77 silly idealTree ├── nwmatcher@1.3.7
-77 silly idealTree ├── oauth-sign@0.8.1
-77 silly idealTree ├── optionator@0.8.1
-77 silly idealTree ├── parse5@1.5.1
-77 silly idealTree ├── pinkie-promise@2.0.1
-77 silly idealTree ├── pinkie@2.0.4
-77 silly idealTree ├── prelude-ls@1.1.2
-77 silly idealTree ├── process-nextick-args@1.0.6
-77 silly idealTree ├── pseudomap@1.0.2
-77 silly idealTree ├── qs@6.1.0
-77 silly idealTree ├── readable-stream@1.1.14
-77 silly idealTree ├── reduce-component@1.0.1
-77 silly idealTree ├── request@2.72.0
-77 silly idealTree ├── sax@1.2.1
-77 silly idealTree ├── sntp@1.0.9
-77 silly idealTree ├── source-map@0.2.0
-77 silly idealTree ├─┬ sshpk@1.8.3
-77 silly idealTree │ └── assert-plus@1.0.0
-77 silly idealTree ├── string_decoder@0.10.31
-77 silly idealTree ├── stringstream@0.0.5
-77 silly idealTree ├── strip-ansi@3.0.1
-77 silly idealTree ├─┬ superagent@1.8.3
-77 silly idealTree │ ├── form-data@1.0.0-rc3
-77 silly idealTree │ ├── qs@2.3.3
-77 silly idealTree │ └── readable-stream@1.0.27-1
-77 silly idealTree ├── supports-color@2.0.0
-77 silly idealTree ├── symbol-tree@3.1.4
-77 silly idealTree ├── tough-cookie@2.2.2
-77 silly idealTree ├── tr46@0.0.3
-77 silly idealTree ├── tunnel-agent@0.4.2
-77 silly idealTree ├── tweetnacl@0.13.3
-77 silly idealTree ├── type-check@0.3.2
-77 silly idealTree ├── util-deprecate@1.0.2
-77 silly idealTree ├── verror@1.3.6
-77 silly idealTree ├── webidl-conversions@2.0.1
-77 silly idealTree ├── whatwg-url-compat@0.6.5
-77 silly idealTree ├── wordwrap@1.0.0
-77 silly idealTree ├── xml-name-validator@2.0.1
-77 silly idealTree ├── xtend@4.0.1
-77 silly idealTree └── yallist@2.0.0
-78 silly generateActionsToTake Starting
-79 silly install generateActionsToTake
-80 silly generateActionsToTake Finishing
-81 silly diffTrees action count 3
-82 silly diffTrees update cheerio@0.20.0
-83 silly diffTrees add httpsync@0.0.8
-84 silly diffTrees update superagent@1.8.3
-85 silly decomposeActions action count 24
-86 silly decomposeActions fetch cheerio@0.20.0
-87 silly decomposeActions extract cheerio@0.20.0
-88 silly decomposeActions test cheerio@0.20.0
-89 silly decomposeActions preinstall cheerio@0.20.0
-90 silly decomposeActions build cheerio@0.20.0
-91 silly decomposeActions install cheerio@0.20.0
-92 silly decomposeActions postinstall cheerio@0.20.0
-93 silly decomposeActions finalize cheerio@0.20.0
-94 silly decomposeActions fetch httpsync@0.0.8
-95 silly decomposeActions extract httpsync@0.0.8
-96 silly decomposeActions test httpsync@0.0.8
-97 silly decomposeActions preinstall httpsync@0.0.8
-98 silly decomposeActions build httpsync@0.0.8
-99 silly decomposeActions install httpsync@0.0.8
-100 silly decomposeActions postinstall httpsync@0.0.8
-101 silly decomposeActions finalize httpsync@0.0.8
-102 silly decomposeActions fetch superagent@1.8.3
-103 silly decomposeActions extract superagent@1.8.3
-104 silly decomposeActions test superagent@1.8.3
-105 silly decomposeActions preinstall superagent@1.8.3
-106 silly decomposeActions build superagent@1.8.3
-107 silly decomposeActions install superagent@1.8.3
-108 silly decomposeActions postinstall superagent@1.8.3
-109 silly decomposeActions finalize superagent@1.8.3
-110 silly executeActions Starting
-111 silly install executeActions
-112 silly doSerial global-install 0
-113 silly doParallel fetch 3
-114 verbose correctMkdir /Users/yangyu/.npm/_locks correctMkdir not in flight; initializing
-115 verbose lock using /Users/yangyu/.npm/_locks/staging-9647fe4ae5f5140f.lock for /Users/yangyu/Github/domainCrawler/node_modules/.staging
-116 silly doParallel extract 3
-117 silly extract cheerio@0.20.0
-118 silly extract httpsync@0.0.8
-119 silly extract superagent@1.8.3
-120 verbose unbuild node_modules/.staging/httpsync-febdf9c8
-121 verbose unbuild node_modules/.staging/cheerio-592303b4
-122 verbose unbuild node_modules/.staging/superagent-b84f1367
-123 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8 is being purged from base /Users/yangyu/Github/domainCrawler
-124 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
-125 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4 is being purged from base /Users/yangyu/Github/domainCrawler
-126 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
-127 verbose tar unpack /Users/yangyu/.npm/httpsync/0.0.8/package.tgz
-128 verbose tar unpacking to /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
-129 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8 is being purged
-130 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
-131 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367 is being purged from base /Users/yangyu/Github/domainCrawler
-132 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
-133 verbose tar unpack /Users/yangyu/.npm/cheerio/0.20.0/package.tgz
-134 verbose tar unpacking to /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
-135 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4 is being purged
-136 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
-137 silly gunzTarPerm modes [ '755', '644' ]
-138 verbose tar unpack /Users/yangyu/.npm/superagent/1.8.3/package.tgz
-139 verbose tar unpacking to /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
-140 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367 is being purged
-141 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
-142 silly gunzTarPerm modes [ '755', '644' ]
-143 silly gunzTarPerm modes [ '755', '644' ]
-144 silly gunzTarPerm extractEntry package.json
-145 silly gunzTarPerm extractEntry package.json
-146 silly gunzTarPerm extractEntry package.json
-147 silly gunzTarPerm extractEntry .npmignore
-148 silly gunzTarPerm extractEntry README.md
-149 silly gunzTarPerm extractEntry index.js
-150 silly gunzTarPerm extractEntry Readme.md
-151 silly gunzTarPerm extractEntry .npmignore
-152 silly gunzTarPerm extractEntry LICENSE
-153 silly gunzTarPerm extractEntry index.js
-154 silly gunzTarPerm extractEntry Makefile
-155 silly gunzTarPerm extractEntry History.md
-156 silly gunzTarPerm modified mode [ 'History.md', 384, 420 ]
-157 silly gunzTarPerm extractEntry test.js
-158 silly gunzTarPerm extractEntry superagent.js
-159 silly gunzTarPerm extractEntry wscript
-160 silly gunzTarPerm extractEntry TODO
-161 silly gunzTarPerm extractEntry History.md
-162 silly gunzTarPerm extractEntry lib/cheerio.js
-163 silly gunzTarPerm extractEntry lib/parse.js
-164 silly gunzTarPerm extractEntry lib/static.js
-165 silly gunzTarPerm extractEntry lib/utils.js
-166 silly gunzTarPerm extractEntry Makefile
-167 silly gunzTarPerm extractEntry Readme.md
-168 silly gunzTarPerm extractEntry binding.gyp
-169 silly gunzTarPerm extractEntry .travis.yml
-170 silly gunzTarPerm extractEntry lib/api/attributes.js
-171 silly gunzTarPerm extractEntry lib/api/css.js
-172 silly gunzTarPerm extractEntry lib/api/forms.js
-173 silly gunzTarPerm extractEntry lib/api/manipulation.js
-174 silly gunzTarPerm extractEntry .travis.yml
-175 silly gunzTarPerm extractEntry component.json
-176 silly gunzTarPerm extractEntry docs/highlight.js
-177 silly gunzTarPerm extractEntry example/upload_file.js
-178 silly gunzTarPerm extractEntry AUTHORS
-179 silly gunzTarPerm extractEntry docs/jquery-ui.min.js
-180 silly gunzTarPerm extractEntry lib/api/traversing.js
-181 silly gunzTarPerm extractEntry link.sh
-182 silly gunzTarPerm extractEntry docs/jquery.js
-183 silly gunzTarPerm extractEntry docs/jquery.tocify.min.js
-184 silly gunzTarPerm extractEntry History.md
-185 silly gunzTarPerm extractEntry src/curl.cc
-186 silly gunzTarPerm extractEntry docs/head.html
-187 silly gunzTarPerm extractEntry docs/images/bg.png
-188 silly gunzTarPerm extractEntry src/curl.h
-189 silly gunzTarPerm extractEntry src/main.cc
-190 silly gunzTarPerm extractEntry docs/index.md
-191 silly gunzTarPerm extractEntry docs/style.css
-192 silly gunzTarPerm extractEntry docs/tail.html
-193 silly gunzTarPerm extractEntry docs/test.html
-194 silly gunzTarPerm extractEntry lib/client.js
-195 silly gunzTarPerm extractEntry lib/is-object.js
-196 silly gunzTarPerm extractEntry lib/request-base.js
-197 silly gunzTarPerm extractEntry lib/request.js
-198 silly gunzTarPerm extractEntry lib/node/agent.js
-199 silly gunzTarPerm extractEntry lib/node/index.js
-200 silly gunzTarPerm extractEntry lib/node/part.js
-201 silly gunzTarPerm extractEntry lib/node/response.js
-202 silly gunzTarPerm extractEntry lib/node/utils.js
-203 silly gunzTarPerm extractEntry lib/node/parsers/image.js
-204 silly gunzTarPerm extractEntry lib/node/parsers/index.js
-205 silly gunzTarPerm extractEntry lib/node/parsers/json.js
-206 silly gunzTarPerm extractEntry lib/node/parsers/text.js
-207 silly gunzTarPerm extractEntry lib/node/parsers/urlencoded.js
-208 silly gunzTarPerm extractEntry .zuul.yml
-209 silly gunzTarPerm extractEntry Contributing.md
-210 silly gunzTarPerm extractEntry bower.json
-211 silly gunzTarPerm extractEntry src/request.cc
-212 silly gunzTarPerm extractEntry test/curl.js
-213 silly gunzTarPerm extractEntry test/mocha.opts
-214 silly gunzTarPerm extractEntry test/support/echo.js
-215 silly gunzTarPerm extractEntry build.sh
-216 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4/node_modules is being purged
-217 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4/node_modules
-218 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8/node_modules is being purged
-219 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8/node_modules
-220 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367/node_modules is being purged
-221 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367/node_modules
-222 silly doParallel preinstall 3
-223 silly preinstall cheerio@0.20.0 /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
-224 info lifecycle cheerio@0.20.0~preinstall: cheerio@0.20.0
-225 silly preinstall httpsync@0.0.8 /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
-226 info lifecycle httpsync@0.0.8~preinstall: httpsync@0.0.8
-227 silly preinstall superagent@1.8.3 /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
-228 info lifecycle superagent@1.8.3~preinstall: superagent@1.8.3
-229 silly lifecycle cheerio@0.20.0~preinstall: no script for preinstall, continuing
-230 silly lifecycle httpsync@0.0.8~preinstall: no script for preinstall, continuing
-231 silly lifecycle superagent@1.8.3~preinstall: no script for preinstall, continuing
-232 silly doReverseSerial remove 0
-233 silly doSerial move 0
-234 silly doSerial finalize 3
-235 silly finalize /Users/yangyu/Github/domainCrawler/node_modules/cheerio
-236 silly finalize /Users/yangyu/Github/domainCrawler/node_modules/httpsync
-237 silly finalize /Users/yangyu/Github/domainCrawler/node_modules/superagent
-238 silly doSerial build 3
-239 silly build cheerio@0.20.0
-240 info linkStuff cheerio@0.20.0
-241 silly linkStuff cheerio@0.20.0 has /Users/yangyu/Github/domainCrawler/node_modules as its parent node_modules
-242 verbose linkBins cheerio@0.20.0
-243 verbose linkMans cheerio@0.20.0
-244 silly build httpsync@0.0.8
-245 info linkStuff httpsync@0.0.8
-246 silly linkStuff httpsync@0.0.8 has /Users/yangyu/Github/domainCrawler/node_modules as its parent node_modules
-247 verbose linkBins httpsync@0.0.8
-248 verbose linkMans httpsync@0.0.8
-249 silly build superagent@1.8.3
-250 info linkStuff superagent@1.8.3
-251 silly linkStuff superagent@1.8.3 has /Users/yangyu/Github/domainCrawler/node_modules as its parent node_modules
-252 verbose linkBins superagent@1.8.3
-253 verbose linkMans superagent@1.8.3
-254 silly doSerial global-link 0
-255 silly doParallel update-linked 0
-256 silly doSerial install 3
-257 silly install cheerio@0.20.0 /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
-258 info lifecycle cheerio@0.20.0~install: cheerio@0.20.0
-259 silly lifecycle cheerio@0.20.0~install: no script for install, continuing
-260 silly install httpsync@0.0.8 /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
-261 info lifecycle httpsync@0.0.8~install: httpsync@0.0.8
-262 verbose lifecycle httpsync@0.0.8~install: unsafe-perm in lifecycle true
-263 verbose lifecycle httpsync@0.0.8~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/yangyu/Github/domainCrawler/node_modules/httpsync/node_modules/.bin:/Users/yangyu/Github/domainCrawler/node_modules/.bin:/usr/local/bin:/usr/local/php5-7.0.4-20160310-143636/bin:/Applications/play-1.2.6:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/apache-tomcat-7.0.68/bin
-264 verbose lifecycle httpsync@0.0.8~install: CWD: /Users/yangyu/Github/domainCrawler/node_modules/httpsync
-265 silly lifecycle httpsync@0.0.8~install: Args: [ '-c', 'sh build.sh' ]
-266 info lifecycle httpsync@0.0.8~install: Failed to exec install script
-267 verbose unlock done using /Users/yangyu/.npm/_locks/staging-9647fe4ae5f5140f.lock for /Users/yangyu/Github/domainCrawler/node_modules/.staging
-268 silly rollbackFailedOptional Starting
-269 silly rollbackFailedOptional Finishing
-270 silly runTopLevelLifecycles Starting
-271 silly runTopLevelLifecycles Finishing
-272 silly install printInstalled
-273 warn enoent ENOENT: no such file or directory, open '/Users/yangyu/Github/domainCrawler/node_modules/domain-crawler/package.json'
-274 verbose stack Error: httpsync@0.0.8 install: `sh build.sh`
-274 verbose stack spawn ENOENT
-274 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
-274 verbose stack     at emitTwo (events.js:87:13)
-274 verbose stack     at ChildProcess.emit (events.js:172:7)
-274 verbose stack     at maybeClose (internal/child_process.js:818:16)
-274 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-275 verbose pkgid httpsync@0.0.8
-276 verbose cwd /Users/yangyu/Github/domainCrawler
-277 error Darwin 14.4.0
-278 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "httpsync"
-279 error node v4.2.1
-280 error npm  v3.8.8
-281 error file sh
-282 error code ELIFECYCLE
-283 error errno ENOENT
-284 error syscall spawn
-285 error httpsync@0.0.8 install: `sh build.sh`
-285 error spawn ENOENT
-286 error Failed at the httpsync@0.0.8 install script 'sh build.sh'.
-286 error Make sure you have the latest version of node.js and npm installed.
-286 error If you do, this is most likely a problem with the httpsync package,
-286 error not with npm itself.
-286 error Tell the author that this fails on your system:
-286 error     sh build.sh
-286 error You can get information on how to open an issue for this project with:
-286 error     npm bugs httpsync
-286 error Or if that isn't available, you can get their info via:
-286 error     npm owner ls httpsync
-286 error There is likely additional logging output above.
-287 verbose exit [ 1, true ]
+16 info attempt registry request try #1 at 19:34:41
+17 verbose request id 7ac904258b67addb
+18 verbose etag "BX4Y58VDEV1H7B1JGD9XZULQF"
+19 http request GET https://registry.npmjs.org/httpsync
+20 http 304 https://registry.npmjs.org/httpsync
+21 verbose headers { date: 'Wed, 04 May 2016 11:34:25 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"BX4Y58VDEV1H7B1JGD9XZULQF"',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1462361665.979465,VS0,VE156',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Wed, 04 May 2016 11:34:25 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"BX4Y58VDEV1H7B1JGD9XZULQF"',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-itm7420-ITM',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1462361665.979465,VS0,VE156',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/httpsync from cache
+24 verbose get saving httpsync to /Users/yangyu/.npm/registry.npmjs.org/httpsync/.cache.json
+25 verbose correctMkdir /Users/yangyu/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule httpsync@0.0.8 checking installable status
+39 silly cache add args [ 'httpsync', null ]
+40 verbose cache add spec httpsync
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'httpsync',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'httpsync',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed httpsync@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for httpsync
+44 info addNameTag [ 'httpsync', 'latest' ]
+45 silly mapToRegistry name httpsync
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'httpsync',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'httpsync',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/httpsync
+50 verbose addNameTag registry:https://registry.npmjs.org/httpsync not in flight; fetching
+51 verbose get https://registry.npmjs.org/httpsync not expired, no request
+52 silly addNameTag next cb for httpsync with tag latest
+53 silly addNamed httpsync@0.0.8
+54 verbose addNamed "0.0.8" is a plain semver version for httpsync
+55 warn deprecated httpsync@0.0.8: This module no longer work, please use urllib-sync instead.
+56 silly cache afterAdd httpsync@0.0.8
+57 verbose afterAdd /Users/yangyu/.npm/httpsync/0.0.8/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/yangyu/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/yangyu/.npm/httpsync/0.0.8/package/package.json written
+60 silly loadAllDepsIntoIdealTree Finishing
+61 silly idealTree:prePrune domaincrawler@1.0.0
+61 silly idealTree:prePrune ├── abab@1.0.3
+61 silly idealTree:prePrune ├── acorn-globals@1.0.9
+61 silly idealTree:prePrune ├── acorn@2.7.0
+61 silly idealTree:prePrune ├── amdefine@1.0.0
+61 silly idealTree:prePrune ├── ansi-regex@2.0.0
+61 silly idealTree:prePrune ├── ansi-styles@2.2.1
+61 silly idealTree:prePrune ├── asn1@0.2.3
+61 silly idealTree:prePrune ├── assert-plus@0.2.0
+61 silly idealTree:prePrune ├── async@1.5.2
+61 silly idealTree:prePrune ├── aws-sign2@0.6.0
+61 silly idealTree:prePrune ├── aws4@1.3.2
+61 silly idealTree:prePrune ├─┬ bl@1.1.2
+61 silly idealTree:prePrune │ ├── isarray@1.0.0
+61 silly idealTree:prePrune │ └── readable-stream@2.0.6
+61 silly idealTree:prePrune ├── boolbase@1.0.0
+61 silly idealTree:prePrune ├── boom@2.10.1
+61 silly idealTree:prePrune ├── caseless@0.11.0
+61 silly idealTree:prePrune ├── chalk@1.1.3
+61 silly idealTree:prePrune ├── cheerio@0.20.0
+61 silly idealTree:prePrune ├── combined-stream@1.0.5
+61 silly idealTree:prePrune ├── commander@2.9.0
+61 silly idealTree:prePrune ├── component-emitter@1.2.1
+61 silly idealTree:prePrune ├── cookiejar@2.0.6
+61 silly idealTree:prePrune ├── core-util-is@1.0.2
+61 silly idealTree:prePrune ├── cryptiles@2.0.5
+61 silly idealTree:prePrune ├── css-select@1.2.0
+61 silly idealTree:prePrune ├── css-what@2.1.0
+61 silly idealTree:prePrune ├── cssom@0.3.1
+61 silly idealTree:prePrune ├── cssstyle@0.2.34
+61 silly idealTree:prePrune ├─┬ dashdash@1.13.1
+61 silly idealTree:prePrune │ └── assert-plus@1.0.0
+61 silly idealTree:prePrune ├── debug@2.2.0
+61 silly idealTree:prePrune ├── deep-is@0.1.3
+61 silly idealTree:prePrune ├── delayed-stream@1.0.0
+61 silly idealTree:prePrune ├─┬ dom-serializer@0.1.0
+61 silly idealTree:prePrune │ └── domelementtype@1.1.3
+61 silly idealTree:prePrune ├── domain-crawler
+61 silly idealTree:prePrune ├── domelementtype@1.3.0
+61 silly idealTree:prePrune ├── domhandler@2.3.0
+61 silly idealTree:prePrune ├── domutils@1.5.1
+61 silly idealTree:prePrune ├── ecc-jsbn@0.1.1
+61 silly idealTree:prePrune ├── entities@1.1.1
+61 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
+61 silly idealTree:prePrune ├── escodegen@1.8.0
+61 silly idealTree:prePrune ├── esprima@2.7.2
+61 silly idealTree:prePrune ├── estraverse@1.9.3
+61 silly idealTree:prePrune ├── esutils@2.0.2
+61 silly idealTree:prePrune ├── extend@3.0.0
+61 silly idealTree:prePrune ├── extsprintf@1.0.2
+61 silly idealTree:prePrune ├── fast-levenshtein@1.1.3
+61 silly idealTree:prePrune ├── forever-agent@0.6.1
+61 silly idealTree:prePrune ├── form-data@1.0.0-rc4
+61 silly idealTree:prePrune ├── formidable@1.0.17
+61 silly idealTree:prePrune ├── generate-function@2.0.0
+61 silly idealTree:prePrune ├── generate-object-property@1.2.0
+61 silly idealTree:prePrune ├─┬ getpass@0.1.6
+61 silly idealTree:prePrune │ └── assert-plus@1.0.0
+61 silly idealTree:prePrune ├── graceful-readlink@1.0.1
+61 silly idealTree:prePrune ├── har-validator@2.0.6
+61 silly idealTree:prePrune ├── has-ansi@2.0.0
+61 silly idealTree:prePrune ├── hawk@3.1.3
+61 silly idealTree:prePrune ├── hoek@2.16.3
+61 silly idealTree:prePrune ├─┬ htmlparser2@3.8.3
+61 silly idealTree:prePrune │ └── entities@1.0.0
+61 silly idealTree:prePrune ├── http-signature@1.1.1
+61 silly idealTree:prePrune ├── httpsync@0.0.8
+61 silly idealTree:prePrune ├── inherits@2.0.1
+61 silly idealTree:prePrune ├── is-my-json-valid@2.13.1
+61 silly idealTree:prePrune ├── is-property@1.0.2
+61 silly idealTree:prePrune ├── is-typedarray@1.0.0
+61 silly idealTree:prePrune ├── isarray@0.0.1
+61 silly idealTree:prePrune ├── isstream@0.1.2
+61 silly idealTree:prePrune ├── jodid25519@1.0.2
+61 silly idealTree:prePrune ├── jsbn@0.1.0
+61 silly idealTree:prePrune ├── jsdom@7.2.2
+61 silly idealTree:prePrune ├── json-schema@0.2.2
+61 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+61 silly idealTree:prePrune ├── jsonpointer@2.0.0
+61 silly idealTree:prePrune ├── jsprim@1.2.2
+61 silly idealTree:prePrune ├── levn@0.3.0
+61 silly idealTree:prePrune ├── lodash@4.11.2
+61 silly idealTree:prePrune ├── lru-cache@4.0.1
+61 silly idealTree:prePrune ├── methods@1.1.2
+61 silly idealTree:prePrune ├── mime-db@1.23.0
+61 silly idealTree:prePrune ├── mime-types@2.1.11
+61 silly idealTree:prePrune ├── mime@1.3.4
+61 silly idealTree:prePrune ├── ms@0.7.1
+61 silly idealTree:prePrune ├── node-uuid@1.4.7
+61 silly idealTree:prePrune ├── nth-check@1.0.1
+61 silly idealTree:prePrune ├── nwmatcher@1.3.7
+61 silly idealTree:prePrune ├── oauth-sign@0.8.1
+61 silly idealTree:prePrune ├── optionator@0.8.1
+61 silly idealTree:prePrune ├── parse5@1.5.1
+61 silly idealTree:prePrune ├── pinkie-promise@2.0.1
+61 silly idealTree:prePrune ├── pinkie@2.0.4
+61 silly idealTree:prePrune ├── prelude-ls@1.1.2
+61 silly idealTree:prePrune ├── process-nextick-args@1.0.6
+61 silly idealTree:prePrune ├── pseudomap@1.0.2
+61 silly idealTree:prePrune ├── qs@6.1.0
+61 silly idealTree:prePrune ├── readable-stream@1.1.14
+61 silly idealTree:prePrune ├── reduce-component@1.0.1
+61 silly idealTree:prePrune ├── request@2.72.0
+61 silly idealTree:prePrune ├── sax@1.2.1
+61 silly idealTree:prePrune ├── sntp@1.0.9
+61 silly idealTree:prePrune ├── source-map@0.2.0
+61 silly idealTree:prePrune ├─┬ sshpk@1.8.3
+61 silly idealTree:prePrune │ └── assert-plus@1.0.0
+61 silly idealTree:prePrune ├── string_decoder@0.10.31
+61 silly idealTree:prePrune ├── stringstream@0.0.5
+61 silly idealTree:prePrune ├── strip-ansi@3.0.1
+61 silly idealTree:prePrune ├─┬ superagent@1.8.3
+61 silly idealTree:prePrune │ ├── form-data@1.0.0-rc3
+61 silly idealTree:prePrune │ ├── qs@2.3.3
+61 silly idealTree:prePrune │ └── readable-stream@1.0.27-1
+61 silly idealTree:prePrune ├── supports-color@2.0.0
+61 silly idealTree:prePrune ├── symbol-tree@3.1.4
+61 silly idealTree:prePrune ├── tough-cookie@2.2.2
+61 silly idealTree:prePrune ├── tr46@0.0.3
+61 silly idealTree:prePrune ├── tunnel-agent@0.4.2
+61 silly idealTree:prePrune ├── tweetnacl@0.13.3
+61 silly idealTree:prePrune ├── type-check@0.3.2
+61 silly idealTree:prePrune ├── util-deprecate@1.0.2
+61 silly idealTree:prePrune ├── verror@1.3.6
+61 silly idealTree:prePrune ├── webidl-conversions@2.0.1
+61 silly idealTree:prePrune ├── whatwg-url-compat@0.6.5
+61 silly idealTree:prePrune ├── wordwrap@1.0.0
+61 silly idealTree:prePrune ├── xml-name-validator@2.0.1
+61 silly idealTree:prePrune ├── xtend@4.0.1
+61 silly idealTree:prePrune └── yallist@2.0.0
+62 silly loadIdealTree Finishing
+63 silly currentTree domaincrawler@1.0.0
+63 silly currentTree ├── abab@1.0.3
+63 silly currentTree ├── acorn-globals@1.0.9
+63 silly currentTree ├── acorn@2.7.0
+63 silly currentTree ├── amdefine@1.0.0
+63 silly currentTree ├── ansi-regex@2.0.0
+63 silly currentTree ├── ansi-styles@2.2.1
+63 silly currentTree ├── asn1@0.2.3
+63 silly currentTree ├── assert-plus@0.2.0
+63 silly currentTree ├── async@1.5.2
+63 silly currentTree ├── aws-sign2@0.6.0
+63 silly currentTree ├── aws4@1.3.2
+63 silly currentTree ├─┬ bl@1.1.2
+63 silly currentTree │ ├── isarray@1.0.0
+63 silly currentTree │ └── readable-stream@2.0.6
+63 silly currentTree ├── boolbase@1.0.0
+63 silly currentTree ├── boom@2.10.1
+63 silly currentTree ├── caseless@0.11.0
+63 silly currentTree ├── chalk@1.1.3
+63 silly currentTree ├── cheerio@0.20.0
+63 silly currentTree ├── combined-stream@1.0.5
+63 silly currentTree ├── commander@2.9.0
+63 silly currentTree ├── component-emitter@1.2.1
+63 silly currentTree ├── cookiejar@2.0.6
+63 silly currentTree ├── core-util-is@1.0.2
+63 silly currentTree ├── cryptiles@2.0.5
+63 silly currentTree ├── css-select@1.2.0
+63 silly currentTree ├── css-what@2.1.0
+63 silly currentTree ├── cssom@0.3.1
+63 silly currentTree ├── cssstyle@0.2.34
+63 silly currentTree ├─┬ dashdash@1.13.1
+63 silly currentTree │ └── assert-plus@1.0.0
+63 silly currentTree ├── debug@2.2.0
+63 silly currentTree ├── deep-is@0.1.3
+63 silly currentTree ├── delayed-stream@1.0.0
+63 silly currentTree ├─┬ dom-serializer@0.1.0
+63 silly currentTree │ └── domelementtype@1.1.3
+63 silly currentTree ├── domain-crawler
+63 silly currentTree ├── domelementtype@1.3.0
+63 silly currentTree ├── domhandler@2.3.0
+63 silly currentTree ├── domutils@1.5.1
+63 silly currentTree ├── ecc-jsbn@0.1.1
+63 silly currentTree ├── entities@1.1.1
+63 silly currentTree ├── escape-string-regexp@1.0.5
+63 silly currentTree ├── escodegen@1.8.0
+63 silly currentTree ├── esprima@2.7.2
+63 silly currentTree ├── estraverse@1.9.3
+63 silly currentTree ├── esutils@2.0.2
+63 silly currentTree ├── extend@3.0.0
+63 silly currentTree ├── extsprintf@1.0.2
+63 silly currentTree ├── fast-levenshtein@1.1.3
+63 silly currentTree ├── forever-agent@0.6.1
+63 silly currentTree ├── form-data@1.0.0-rc4
+63 silly currentTree ├── formidable@1.0.17
+63 silly currentTree ├── generate-function@2.0.0
+63 silly currentTree ├── generate-object-property@1.2.0
+63 silly currentTree ├─┬ getpass@0.1.6
+63 silly currentTree │ └── assert-plus@1.0.0
+63 silly currentTree ├── graceful-readlink@1.0.1
+63 silly currentTree ├── har-validator@2.0.6
+63 silly currentTree ├── has-ansi@2.0.0
+63 silly currentTree ├── hawk@3.1.3
+63 silly currentTree ├── hoek@2.16.3
+63 silly currentTree ├─┬ htmlparser2@3.8.3
+63 silly currentTree │ └── entities@1.0.0
+63 silly currentTree ├── http-signature@1.1.1
+63 silly currentTree ├── inherits@2.0.1
+63 silly currentTree ├── is-my-json-valid@2.13.1
+63 silly currentTree ├── is-property@1.0.2
+63 silly currentTree ├── is-typedarray@1.0.0
+63 silly currentTree ├── isarray@0.0.1
+63 silly currentTree ├── isstream@0.1.2
+63 silly currentTree ├── jodid25519@1.0.2
+63 silly currentTree ├── jsbn@0.1.0
+63 silly currentTree ├── jsdom@7.2.2
+63 silly currentTree ├── json-schema@0.2.2
+63 silly currentTree ├── json-stringify-safe@5.0.1
+63 silly currentTree ├── jsonpointer@2.0.0
+63 silly currentTree ├── jsprim@1.2.2
+63 silly currentTree ├── levn@0.3.0
+63 silly currentTree ├── lodash@4.11.2
+63 silly currentTree ├── lru-cache@4.0.1
+63 silly currentTree ├── methods@1.1.2
+63 silly currentTree ├── mime-db@1.23.0
+63 silly currentTree ├── mime-types@2.1.11
+63 silly currentTree ├── mime@1.3.4
+63 silly currentTree ├── ms@0.7.1
+63 silly currentTree ├── node-uuid@1.4.7
+63 silly currentTree ├── nth-check@1.0.1
+63 silly currentTree ├── nwmatcher@1.3.7
+63 silly currentTree ├── oauth-sign@0.8.1
+63 silly currentTree ├── optionator@0.8.1
+63 silly currentTree ├── parse5@1.5.1
+63 silly currentTree ├── pinkie-promise@2.0.1
+63 silly currentTree ├── pinkie@2.0.4
+63 silly currentTree ├── prelude-ls@1.1.2
+63 silly currentTree ├── process-nextick-args@1.0.6
+63 silly currentTree ├── pseudomap@1.0.2
+63 silly currentTree ├── qs@6.1.0
+63 silly currentTree ├── readable-stream@1.1.14
+63 silly currentTree ├── reduce-component@1.0.1
+63 silly currentTree ├── request@2.72.0
+63 silly currentTree ├── sax@1.2.1
+63 silly currentTree ├── sntp@1.0.9
+63 silly currentTree ├── source-map@0.2.0
+63 silly currentTree ├─┬ sshpk@1.8.3
+63 silly currentTree │ └── assert-plus@1.0.0
+63 silly currentTree ├── string_decoder@0.10.31
+63 silly currentTree ├── stringstream@0.0.5
+63 silly currentTree ├── strip-ansi@3.0.1
+63 silly currentTree ├─┬ superagent@1.8.3
+63 silly currentTree │ ├── form-data@1.0.0-rc3
+63 silly currentTree │ ├── qs@2.3.3
+63 silly currentTree │ └── readable-stream@1.0.27-1
+63 silly currentTree ├── supports-color@2.0.0
+63 silly currentTree ├── symbol-tree@3.1.4
+63 silly currentTree ├── tough-cookie@2.2.2
+63 silly currentTree ├── tr46@0.0.3
+63 silly currentTree ├── tunnel-agent@0.4.2
+63 silly currentTree ├── tweetnacl@0.13.3
+63 silly currentTree ├── type-check@0.3.2
+63 silly currentTree ├── util-deprecate@1.0.2
+63 silly currentTree ├── verror@1.3.6
+63 silly currentTree ├── webidl-conversions@2.0.1
+63 silly currentTree ├── whatwg-url-compat@0.6.5
+63 silly currentTree ├── wordwrap@1.0.0
+63 silly currentTree ├── xml-name-validator@2.0.1
+63 silly currentTree ├── xtend@4.0.1
+63 silly currentTree └── yallist@2.0.0
+64 silly idealTree domaincrawler@1.0.0
+64 silly idealTree ├── abab@1.0.3
+64 silly idealTree ├── acorn-globals@1.0.9
+64 silly idealTree ├── acorn@2.7.0
+64 silly idealTree ├── amdefine@1.0.0
+64 silly idealTree ├── ansi-regex@2.0.0
+64 silly idealTree ├── ansi-styles@2.2.1
+64 silly idealTree ├── asn1@0.2.3
+64 silly idealTree ├── assert-plus@0.2.0
+64 silly idealTree ├── async@1.5.2
+64 silly idealTree ├── aws-sign2@0.6.0
+64 silly idealTree ├── aws4@1.3.2
+64 silly idealTree ├─┬ bl@1.1.2
+64 silly idealTree │ ├── isarray@1.0.0
+64 silly idealTree │ └── readable-stream@2.0.6
+64 silly idealTree ├── boolbase@1.0.0
+64 silly idealTree ├── boom@2.10.1
+64 silly idealTree ├── caseless@0.11.0
+64 silly idealTree ├── chalk@1.1.3
+64 silly idealTree ├── cheerio@0.20.0
+64 silly idealTree ├── combined-stream@1.0.5
+64 silly idealTree ├── commander@2.9.0
+64 silly idealTree ├── component-emitter@1.2.1
+64 silly idealTree ├── cookiejar@2.0.6
+64 silly idealTree ├── core-util-is@1.0.2
+64 silly idealTree ├── cryptiles@2.0.5
+64 silly idealTree ├── css-select@1.2.0
+64 silly idealTree ├── css-what@2.1.0
+64 silly idealTree ├── cssom@0.3.1
+64 silly idealTree ├── cssstyle@0.2.34
+64 silly idealTree ├─┬ dashdash@1.13.1
+64 silly idealTree │ └── assert-plus@1.0.0
+64 silly idealTree ├── debug@2.2.0
+64 silly idealTree ├── deep-is@0.1.3
+64 silly idealTree ├── delayed-stream@1.0.0
+64 silly idealTree ├─┬ dom-serializer@0.1.0
+64 silly idealTree │ └── domelementtype@1.1.3
+64 silly idealTree ├── domain-crawler
+64 silly idealTree ├── domelementtype@1.3.0
+64 silly idealTree ├── domhandler@2.3.0
+64 silly idealTree ├── domutils@1.5.1
+64 silly idealTree ├── ecc-jsbn@0.1.1
+64 silly idealTree ├── entities@1.1.1
+64 silly idealTree ├── escape-string-regexp@1.0.5
+64 silly idealTree ├── escodegen@1.8.0
+64 silly idealTree ├── esprima@2.7.2
+64 silly idealTree ├── estraverse@1.9.3
+64 silly idealTree ├── esutils@2.0.2
+64 silly idealTree ├── extend@3.0.0
+64 silly idealTree ├── extsprintf@1.0.2
+64 silly idealTree ├── fast-levenshtein@1.1.3
+64 silly idealTree ├── forever-agent@0.6.1
+64 silly idealTree ├── form-data@1.0.0-rc4
+64 silly idealTree ├── formidable@1.0.17
+64 silly idealTree ├── generate-function@2.0.0
+64 silly idealTree ├── generate-object-property@1.2.0
+64 silly idealTree ├─┬ getpass@0.1.6
+64 silly idealTree │ └── assert-plus@1.0.0
+64 silly idealTree ├── graceful-readlink@1.0.1
+64 silly idealTree ├── har-validator@2.0.6
+64 silly idealTree ├── has-ansi@2.0.0
+64 silly idealTree ├── hawk@3.1.3
+64 silly idealTree ├── hoek@2.16.3
+64 silly idealTree ├─┬ htmlparser2@3.8.3
+64 silly idealTree │ └── entities@1.0.0
+64 silly idealTree ├── http-signature@1.1.1
+64 silly idealTree ├── httpsync@0.0.8
+64 silly idealTree ├── inherits@2.0.1
+64 silly idealTree ├── is-my-json-valid@2.13.1
+64 silly idealTree ├── is-property@1.0.2
+64 silly idealTree ├── is-typedarray@1.0.0
+64 silly idealTree ├── isarray@0.0.1
+64 silly idealTree ├── isstream@0.1.2
+64 silly idealTree ├── jodid25519@1.0.2
+64 silly idealTree ├── jsbn@0.1.0
+64 silly idealTree ├── jsdom@7.2.2
+64 silly idealTree ├── json-schema@0.2.2
+64 silly idealTree ├── json-stringify-safe@5.0.1
+64 silly idealTree ├── jsonpointer@2.0.0
+64 silly idealTree ├── jsprim@1.2.2
+64 silly idealTree ├── levn@0.3.0
+64 silly idealTree ├── lodash@4.11.2
+64 silly idealTree ├── lru-cache@4.0.1
+64 silly idealTree ├── methods@1.1.2
+64 silly idealTree ├── mime-db@1.23.0
+64 silly idealTree ├── mime-types@2.1.11
+64 silly idealTree ├── mime@1.3.4
+64 silly idealTree ├── ms@0.7.1
+64 silly idealTree ├── node-uuid@1.4.7
+64 silly idealTree ├── nth-check@1.0.1
+64 silly idealTree ├── nwmatcher@1.3.7
+64 silly idealTree ├── oauth-sign@0.8.1
+64 silly idealTree ├── optionator@0.8.1
+64 silly idealTree ├── parse5@1.5.1
+64 silly idealTree ├── pinkie-promise@2.0.1
+64 silly idealTree ├── pinkie@2.0.4
+64 silly idealTree ├── prelude-ls@1.1.2
+64 silly idealTree ├── process-nextick-args@1.0.6
+64 silly idealTree ├── pseudomap@1.0.2
+64 silly idealTree ├── qs@6.1.0
+64 silly idealTree ├── readable-stream@1.1.14
+64 silly idealTree ├── reduce-component@1.0.1
+64 silly idealTree ├── request@2.72.0
+64 silly idealTree ├── sax@1.2.1
+64 silly idealTree ├── sntp@1.0.9
+64 silly idealTree ├── source-map@0.2.0
+64 silly idealTree ├─┬ sshpk@1.8.3
+64 silly idealTree │ └── assert-plus@1.0.0
+64 silly idealTree ├── string_decoder@0.10.31
+64 silly idealTree ├── stringstream@0.0.5
+64 silly idealTree ├── strip-ansi@3.0.1
+64 silly idealTree ├─┬ superagent@1.8.3
+64 silly idealTree │ ├── form-data@1.0.0-rc3
+64 silly idealTree │ ├── qs@2.3.3
+64 silly idealTree │ └── readable-stream@1.0.27-1
+64 silly idealTree ├── supports-color@2.0.0
+64 silly idealTree ├── symbol-tree@3.1.4
+64 silly idealTree ├── tough-cookie@2.2.2
+64 silly idealTree ├── tr46@0.0.3
+64 silly idealTree ├── tunnel-agent@0.4.2
+64 silly idealTree ├── tweetnacl@0.13.3
+64 silly idealTree ├── type-check@0.3.2
+64 silly idealTree ├── util-deprecate@1.0.2
+64 silly idealTree ├── verror@1.3.6
+64 silly idealTree ├── webidl-conversions@2.0.1
+64 silly idealTree ├── whatwg-url-compat@0.6.5
+64 silly idealTree ├── wordwrap@1.0.0
+64 silly idealTree ├── xml-name-validator@2.0.1
+64 silly idealTree ├── xtend@4.0.1
+64 silly idealTree └── yallist@2.0.0
+65 silly generateActionsToTake Starting
+66 silly install generateActionsToTake
+67 silly generateActionsToTake Finishing
+68 silly diffTrees action count 3
+69 silly diffTrees update cheerio@0.20.0
+70 silly diffTrees add httpsync@0.0.8
+71 silly diffTrees update superagent@1.8.3
+72 silly decomposeActions action count 24
+73 silly decomposeActions fetch cheerio@0.20.0
+74 silly decomposeActions extract cheerio@0.20.0
+75 silly decomposeActions test cheerio@0.20.0
+76 silly decomposeActions preinstall cheerio@0.20.0
+77 silly decomposeActions build cheerio@0.20.0
+78 silly decomposeActions install cheerio@0.20.0
+79 silly decomposeActions postinstall cheerio@0.20.0
+80 silly decomposeActions finalize cheerio@0.20.0
+81 silly decomposeActions fetch httpsync@0.0.8
+82 silly decomposeActions extract httpsync@0.0.8
+83 silly decomposeActions test httpsync@0.0.8
+84 silly decomposeActions preinstall httpsync@0.0.8
+85 silly decomposeActions build httpsync@0.0.8
+86 silly decomposeActions install httpsync@0.0.8
+87 silly decomposeActions postinstall httpsync@0.0.8
+88 silly decomposeActions finalize httpsync@0.0.8
+89 silly decomposeActions fetch superagent@1.8.3
+90 silly decomposeActions extract superagent@1.8.3
+91 silly decomposeActions test superagent@1.8.3
+92 silly decomposeActions preinstall superagent@1.8.3
+93 silly decomposeActions build superagent@1.8.3
+94 silly decomposeActions install superagent@1.8.3
+95 silly decomposeActions postinstall superagent@1.8.3
+96 silly decomposeActions finalize superagent@1.8.3
+97 silly executeActions Starting
+98 silly install executeActions
+99 silly doSerial global-install 0
+100 silly doParallel fetch 3
+101 verbose correctMkdir /Users/yangyu/.npm/_locks correctMkdir not in flight; initializing
+102 verbose lock using /Users/yangyu/.npm/_locks/staging-9647fe4ae5f5140f.lock for /Users/yangyu/Github/domainCrawler/node_modules/.staging
+103 silly doParallel extract 3
+104 silly extract cheerio@0.20.0
+105 silly extract httpsync@0.0.8
+106 silly extract superagent@1.8.3
+107 verbose unbuild node_modules/.staging/httpsync-febdf9c8
+108 verbose unbuild node_modules/.staging/cheerio-592303b4
+109 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8 is being purged from base /Users/yangyu/Github/domainCrawler
+110 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
+111 verbose tar unpack /Users/yangyu/.npm/httpsync/0.0.8/package.tgz
+112 verbose tar unpacking to /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
+113 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8 is being purged
+114 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
+115 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4 is being purged from base /Users/yangyu/Github/domainCrawler
+116 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
+117 silly gunzTarPerm modes [ '755', '644' ]
+118 verbose unbuild node_modules/.staging/superagent-b84f1367
+119 verbose tar unpack /Users/yangyu/.npm/cheerio/0.20.0/package.tgz
+120 verbose tar unpacking to /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
+121 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4 is being purged
+122 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
+123 silly gunzTarPerm modes [ '755', '644' ]
+124 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367 is being purged from base /Users/yangyu/Github/domainCrawler
+125 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
+126 verbose tar unpack /Users/yangyu/.npm/superagent/1.8.3/package.tgz
+127 verbose tar unpacking to /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
+128 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367 is being purged
+129 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
+130 silly gunzTarPerm modes [ '755', '644' ]
+131 silly gunzTarPerm extractEntry package.json
+132 silly gunzTarPerm extractEntry package.json
+133 silly gunzTarPerm extractEntry .npmignore
+134 silly gunzTarPerm extractEntry README.md
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm extractEntry index.js
+137 silly gunzTarPerm extractEntry Readme.md
+138 silly gunzTarPerm extractEntry .npmignore
+139 silly gunzTarPerm extractEntry LICENSE
+140 silly gunzTarPerm extractEntry index.js
+141 silly gunzTarPerm extractEntry Makefile
+142 silly gunzTarPerm extractEntry History.md
+143 silly gunzTarPerm modified mode [ 'History.md', 384, 420 ]
+144 silly gunzTarPerm extractEntry test.js
+145 silly gunzTarPerm extractEntry superagent.js
+146 silly gunzTarPerm extractEntry lib/cheerio.js
+147 silly gunzTarPerm extractEntry lib/parse.js
+148 silly gunzTarPerm extractEntry lib/static.js
+149 silly gunzTarPerm extractEntry wscript
+150 silly gunzTarPerm extractEntry TODO
+151 silly gunzTarPerm extractEntry lib/utils.js
+152 silly gunzTarPerm extractEntry History.md
+153 silly gunzTarPerm extractEntry lib/api/attributes.js
+154 silly gunzTarPerm extractEntry lib/api/css.js
+155 silly gunzTarPerm extractEntry lib/api/forms.js
+156 silly gunzTarPerm extractEntry Makefile
+157 silly gunzTarPerm extractEntry Readme.md
+158 silly gunzTarPerm extractEntry binding.gyp
+159 silly gunzTarPerm extractEntry .travis.yml
+160 silly gunzTarPerm extractEntry lib/api/manipulation.js
+161 silly gunzTarPerm extractEntry example/upload_file.js
+162 silly gunzTarPerm extractEntry AUTHORS
+163 silly gunzTarPerm extractEntry .travis.yml
+164 silly gunzTarPerm extractEntry component.json
+165 silly gunzTarPerm extractEntry docs/highlight.js
+166 silly gunzTarPerm extractEntry docs/jquery-ui.min.js
+167 silly gunzTarPerm extractEntry lib/api/traversing.js
+168 silly gunzTarPerm extractEntry link.sh
+169 silly gunzTarPerm extractEntry docs/jquery.js
+170 silly gunzTarPerm extractEntry docs/jquery.tocify.min.js
+171 silly gunzTarPerm extractEntry History.md
+172 silly gunzTarPerm extractEntry src/curl.cc
+173 silly gunzTarPerm extractEntry docs/head.html
+174 silly gunzTarPerm extractEntry docs/images/bg.png
+175 silly gunzTarPerm extractEntry src/curl.h
+176 silly gunzTarPerm extractEntry src/main.cc
+177 silly gunzTarPerm extractEntry docs/index.md
+178 silly gunzTarPerm extractEntry docs/style.css
+179 silly gunzTarPerm extractEntry docs/tail.html
+180 silly gunzTarPerm extractEntry docs/test.html
+181 silly gunzTarPerm extractEntry lib/client.js
+182 silly gunzTarPerm extractEntry lib/is-object.js
+183 silly gunzTarPerm extractEntry lib/request-base.js
+184 silly gunzTarPerm extractEntry lib/request.js
+185 silly gunzTarPerm extractEntry lib/node/agent.js
+186 silly gunzTarPerm extractEntry lib/node/index.js
+187 silly gunzTarPerm extractEntry lib/node/part.js
+188 silly gunzTarPerm extractEntry lib/node/response.js
+189 silly gunzTarPerm extractEntry lib/node/utils.js
+190 silly gunzTarPerm extractEntry lib/node/parsers/image.js
+191 silly gunzTarPerm extractEntry lib/node/parsers/index.js
+192 silly gunzTarPerm extractEntry lib/node/parsers/json.js
+193 silly gunzTarPerm extractEntry lib/node/parsers/text.js
+194 silly gunzTarPerm extractEntry lib/node/parsers/urlencoded.js
+195 silly gunzTarPerm extractEntry .zuul.yml
+196 silly gunzTarPerm extractEntry Contributing.md
+197 silly gunzTarPerm extractEntry bower.json
+198 silly gunzTarPerm extractEntry src/request.cc
+199 silly gunzTarPerm extractEntry test/curl.js
+200 silly gunzTarPerm extractEntry test/mocha.opts
+201 silly gunzTarPerm extractEntry test/support/echo.js
+202 silly gunzTarPerm extractEntry build.sh
+203 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4/node_modules is being purged
+204 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4/node_modules
+205 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8/node_modules is being purged
+206 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8/node_modules
+207 silly gentlyRm /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367/node_modules is being purged
+208 verbose gentlyRm don't care about contents; nuking /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367/node_modules
+209 silly doParallel preinstall 3
+210 silly preinstall cheerio@0.20.0 /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
+211 info lifecycle cheerio@0.20.0~preinstall: cheerio@0.20.0
+212 silly preinstall httpsync@0.0.8 /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
+213 info lifecycle httpsync@0.0.8~preinstall: httpsync@0.0.8
+214 silly preinstall superagent@1.8.3 /Users/yangyu/Github/domainCrawler/node_modules/.staging/superagent-b84f1367
+215 info lifecycle superagent@1.8.3~preinstall: superagent@1.8.3
+216 silly lifecycle cheerio@0.20.0~preinstall: no script for preinstall, continuing
+217 silly lifecycle httpsync@0.0.8~preinstall: no script for preinstall, continuing
+218 silly lifecycle superagent@1.8.3~preinstall: no script for preinstall, continuing
+219 silly doReverseSerial remove 0
+220 silly doSerial move 0
+221 silly doSerial finalize 3
+222 silly finalize /Users/yangyu/Github/domainCrawler/node_modules/cheerio
+223 silly finalize /Users/yangyu/Github/domainCrawler/node_modules/httpsync
+224 silly finalize /Users/yangyu/Github/domainCrawler/node_modules/superagent
+225 silly doSerial build 3
+226 silly build cheerio@0.20.0
+227 info linkStuff cheerio@0.20.0
+228 silly linkStuff cheerio@0.20.0 has /Users/yangyu/Github/domainCrawler/node_modules as its parent node_modules
+229 verbose linkBins cheerio@0.20.0
+230 verbose linkMans cheerio@0.20.0
+231 silly build httpsync@0.0.8
+232 info linkStuff httpsync@0.0.8
+233 silly linkStuff httpsync@0.0.8 has /Users/yangyu/Github/domainCrawler/node_modules as its parent node_modules
+234 verbose linkBins httpsync@0.0.8
+235 verbose linkMans httpsync@0.0.8
+236 silly build superagent@1.8.3
+237 info linkStuff superagent@1.8.3
+238 silly linkStuff superagent@1.8.3 has /Users/yangyu/Github/domainCrawler/node_modules as its parent node_modules
+239 verbose linkBins superagent@1.8.3
+240 verbose linkMans superagent@1.8.3
+241 silly doSerial global-link 0
+242 silly doParallel update-linked 0
+243 silly doSerial install 3
+244 silly install cheerio@0.20.0 /Users/yangyu/Github/domainCrawler/node_modules/.staging/cheerio-592303b4
+245 info lifecycle cheerio@0.20.0~install: cheerio@0.20.0
+246 silly lifecycle cheerio@0.20.0~install: no script for install, continuing
+247 silly install httpsync@0.0.8 /Users/yangyu/Github/domainCrawler/node_modules/.staging/httpsync-febdf9c8
+248 info lifecycle httpsync@0.0.8~install: httpsync@0.0.8
+249 verbose lifecycle httpsync@0.0.8~install: unsafe-perm in lifecycle true
+250 verbose lifecycle httpsync@0.0.8~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/yangyu/Github/domainCrawler/node_modules/httpsync/node_modules/.bin:/Users/yangyu/Github/domainCrawler/node_modules/.bin:/usr/local/bin:/usr/local/php5-7.0.4-20160310-143636/bin:/Applications/play-1.2.6:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/apache-tomcat-7.0.68/bin
+251 verbose lifecycle httpsync@0.0.8~install: CWD: /Users/yangyu/Github/domainCrawler/node_modules/httpsync
+252 silly lifecycle httpsync@0.0.8~install: Args: [ '-c', 'sh build.sh' ]
+253 info lifecycle httpsync@0.0.8~install: Failed to exec install script
+254 verbose unlock done using /Users/yangyu/.npm/_locks/staging-9647fe4ae5f5140f.lock for /Users/yangyu/Github/domainCrawler/node_modules/.staging
+255 silly rollbackFailedOptional Starting
+256 silly rollbackFailedOptional Finishing
+257 silly runTopLevelLifecycles Starting
+258 silly runTopLevelLifecycles Finishing
+259 silly install printInstalled
+260 warn enoent ENOENT: no such file or directory, open '/Users/yangyu/Github/domainCrawler/node_modules/domain-crawler/package.json'
+261 verbose stack Error: httpsync@0.0.8 install: `sh build.sh`
+261 verbose stack spawn ENOENT
+261 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+261 verbose stack     at emitTwo (events.js:87:13)
+261 verbose stack     at ChildProcess.emit (events.js:172:7)
+261 verbose stack     at maybeClose (internal/child_process.js:818:16)
+261 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+262 verbose pkgid httpsync@0.0.8
+263 verbose cwd /Users/yangyu/Github/domainCrawler
+264 error Darwin 14.4.0
+265 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "httpsync"
+266 error node v4.2.1
+267 error npm  v3.8.8
+268 error file sh
+269 error code ELIFECYCLE
+270 error errno ENOENT
+271 error syscall spawn
+272 error httpsync@0.0.8 install: `sh build.sh`
+272 error spawn ENOENT
+273 error Failed at the httpsync@0.0.8 install script 'sh build.sh'.
+273 error Make sure you have the latest version of node.js and npm installed.
+273 error If you do, this is most likely a problem with the httpsync package,
+273 error not with npm itself.
+273 error Tell the author that this fails on your system:
+273 error     sh build.sh
+273 error You can get information on how to open an issue for this project with:
+273 error     npm bugs httpsync
+273 error Or if that isn't available, you can get their info via:
+273 error     npm owner ls httpsync
+273 error There is likely additional logging output above.
+274 verbose exit [ 1, true ]

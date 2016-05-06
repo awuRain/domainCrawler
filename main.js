@@ -21,6 +21,6 @@ var config = {
 var domain_crawler1 = new domain_crawler(config);
 // console.log(domain_crawler1);
 
-var domains = domain_crawler1.getUniqueDomain();
+// var domains = domain_crawler1.getUniqueDomain();
 // console.log(domains);
 
