@@ -23,8 +23,3 @@ domain_crawler_1.init.then(function() {
 		domain_crawler_1.crawl();
 	}
 );
-// console.log(domain_crawler1);
-
-// var domains = domain_crawler1.getUniqueDomain();
-// console.log(domains);
-
