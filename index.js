@@ -1,25 +1,30 @@
-var http = require('http');
-var cheerio = require('cheerio');
 var domain_crawler = require('domain-crawler');
 
-var url = "http://www.baidu.com/"
+var url = "http://lvyou.baidu.com/";
 
 var config = {
-	"mode" : "n",
+	// 感觉名称不太对
+	// DOM || RAW
+	"mode" : "DOM",
+	"depth" : 3,
 	"tag" : {
 		"script" : "src",
 		"img" : ["src", "data-sharpsrc"],
 		"link" : "href",
 		"a" : "href"
 	},
-	"attr": [
+	"attr" : [
 		"data-sharpsrc"
 	],
-	"url": url
+	"out" : [{
+		"path" : './summary.txt',
+		'content' : 'summary'
+	},{
+		"path" : './all.txt',
+		'content' : 'all'  
+	}]
 };
 
 var domain_crawler_1 = new domain_crawler(config);
-domain_crawler_1.init.then(function() {
-		domain_crawler_1.crawl();
-	}
-);
+
+domain_crawler_1.crawl(url);
