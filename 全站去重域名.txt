@@ -1,5 +1,4 @@
-
-*** 去重域名 ***
+// 去重domains : :
 
 
 lvyou1.bdimg.com
